@@ -18,8 +18,7 @@ div {
 @media screen and (min-width: 0px) and (max-width: 479px) {
     body {
         background-color: red;
-        flex-direction: column;
-        flex-wrap: wrap;
+        flex-flow: column nowrap;
     }
 
     #small>h2 {
@@ -28,11 +27,6 @@ div {
 
     #small>p {
         font-size: 1.5em;
-    }
-
-    div {
-        width: 100%;
-        margin: auto;
     }
 
 }
@@ -67,10 +61,14 @@ div {
     body {
         background-color: blue;
     }
-
     div {
-        width: 33.333%;
+        flex-flow: row nowrap;
     }
+    #large {
+        width: 35%;
+    }
+
+   
 
 
 
