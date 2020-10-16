@@ -1,0 +1,75 @@
+body {
+    display: flex;
+}
+
+div {
+    border: solid 1px yellow;
+
+}
+
+.container {
+    width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+    body {
+        background-color: red;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+
+    #small>h2 {
+        font-size: 2em;
+    }
+
+    #small>p {
+        font-size: 1.5em;
+    }
+
+    div {
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+    body {
+        background-color: green;
+        flex-direction: row;
+    }
+
+
+    div {
+        flex-wrap: wrap;
+    }
+
+    #medium>h2 {
+        font-size: 1.5em;
+    }
+
+    #medium>p {
+        font-size: 1.2em;
+    }
+
+    #small {}
+
+    #medium {}
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+
+    div {
+        width: 30%;
+    }
+
+
+
+
+
+}
