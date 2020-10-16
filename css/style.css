@@ -3,6 +3,9 @@ div {
     margin: 4px;
     padding: 4px;
     background-color: teal;
+text-align: center;
+align-content: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
@@ -81,6 +84,7 @@ div {
     .container>div {
         width: 30%;
         height: auto;
+        font-size: 2em;
     }
 
 
